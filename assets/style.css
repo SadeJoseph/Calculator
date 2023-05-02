@@ -22,6 +22,8 @@
     background-color:rgb(125, 188, 242) ;
     display: grid;
     grid-template-columns: repeat(4,80px);
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.2);
 }
 
 input{
@@ -32,10 +34,11 @@ input{
     color: rgb(70, 70, 70);
     font-size: 45px;
     text-align: end;
-   
     margin-top: 25px;
     margin-bottom:35px;
     padding: 20px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.2);
 
 }
 
@@ -45,4 +48,10 @@ button{
     border: none;
     border-radius: 50%;
     margin: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.2);
+}
+.equals {
+   width: 140px;
+   border-radius: 30px;
 }
