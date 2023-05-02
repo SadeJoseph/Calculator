@@ -4,6 +4,29 @@
     box-sizing: border-box;
     font-family: sans-serif;
     outline: none;
+    background-color:rgb(200, 224, 245);
 
 
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    padding: 15px;
+    border-radius: 30px;
+    background-color:rgb(125, 188, 242) ;
+    display: grid;
+    grid-template-columns: repeat(4,80px);
+}
+
+input{
+    grid-column: span 4 ;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
 }
