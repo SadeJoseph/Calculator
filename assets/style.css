@@ -31,13 +31,14 @@ input{
     height: 70px;
     border: none;
     border-radius: 30px;
+    
     color: rgb(70, 70, 70);
     font-size: 45px;
     text-align: end;
     margin-top: 25px;
     margin-bottom:35px;
     padding: 20px;
-    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),
+    box-shadow: -10px -10px 25px rgba(255,255,255,0.1),
     5px 5px 15px rgba(0,0,0,0.2);
 
 }
@@ -48,10 +49,24 @@ button{
     border: none;
     border-radius: 50%;
     margin: 10px;
-    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),
-    5px 5px 15px rgba(0,0,0,0.2);
+    box-shadow: -10px -10px 25px rgba(255,255,255,0.1),
+    6px 6px 15px rgba(0,0,0,0.2);
+
 }
-.equals {
+
+button:hover {
+    background-color: rgb(158, 179, 197);
+    cursor: pointer;
+
+}
+
+button:active {
+    background-color: rgb(184, 195, 203);
+
+}
+
+
+#equals {
    width: 140px;
    border-radius: 30px;
 }

@@ -12,25 +12,25 @@
 <div class="container">
      <div class="calculator">
         <input type="text" id="screen" name="display-screen">
-        <button>AC</button>
-        <button>DEL</button>
-        <button>%</button>
-        <button>/</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>x</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>-</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>+</button>
-        <button>0</button>
-        <button>.</button>
-        <button class="equals">=</button>
+        <button id="clear" onclick="Calculate()">AC</button>
+        <button onclick="Calculate()">DEL</button>
+        <button onclick="Calculate('%')">%</button>
+        <button onclick="Calculate('/')">/</button>
+        <button onclick="Calculate(7)">7</button>
+        <button onclick="Calculate(8)">8</button>
+        <button onclick="Calculate(9)">9</button>
+        <button onclick="Calculate('*')">x</button>
+        <button onclick="Calculate(4)">4</button>
+        <button onclick="Calculate(5)">5</button>
+        <button onclick="Calculate(6)">6</button>
+        <butto onclick="Calculate('-')">-</button>
+        <button onclick="Calculate(1)">1</button>
+        <button onclick="Calculate(2)">2</button>
+        <button onclick="Calculate(3)">3</button>
+        <button onclick="Calculate('+')">+</button>
+        <button onclick="Calculate(0)">0</button>
+        <button onclick="Calculate('.')">.</button>
+        <button id="equals" onclick="Answer()">=</button>
        
     </div>
 </div>
