@@ -15,6 +15,7 @@ let Answer =()=> {
 
        alert("Enter a valid calculation")
     }
+}
     //clear date on screen when AC clicked
 function clr() {
     answer.value= "";
@@ -24,5 +25,4 @@ function del() {
     //slice end value
     answer.value= answer.value.slice(0, -1);
 
-}
 }
