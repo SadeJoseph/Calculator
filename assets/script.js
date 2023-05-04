@@ -26,3 +26,14 @@ function del() {
     answer.value= answer.value.slice(0, -1);
 
 }
+
+// add bracket. 
+function openB()
+{
+    answer.value+= "(";
+}
+
+function closeB()
+{
+    answer.value+= ")";
+}
