@@ -6,6 +6,7 @@ let calculate=(num)=>{
 }
 // perform operation
 
+
 let Answer =()=> {
     //evaluate and stop invalid operation ie * then - isnt valid. 
     try{
@@ -15,6 +16,7 @@ let Answer =()=> {
 
        alert("Enter a valid calculation")
     }
+    
 }
     //clear date on screen when AC clicked
 function clr() {
