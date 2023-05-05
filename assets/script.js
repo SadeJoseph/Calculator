@@ -8,10 +8,17 @@ let calculate=(num)=>{
 
 
 let Answer =()=> {
+    // check empty input field 
+
+    if (answer.value.trim() === '') {
+        answer.value = '';
+        return;
+    }
     //evaluate and stop invalid operation ie * then - isnt valid. 
     try{
      answer.value=eval(answer.value)
     }
+    
     catch(err){
 
        alert("Enter a valid calculation")
@@ -39,3 +46,4 @@ function closeB()
 {
     answer.value+= ")";
 }
+
