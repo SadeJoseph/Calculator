@@ -7,10 +7,10 @@ So far this application allows you to:
 - Use both whole numbers and decimal numbers.
 - Chain simple equations together e.g (100+50)/5
 
-# Screenshot 
+## Screenshot 
 
 ![App Screenshot](/assets/screenshot.png)
 
-# Cloning repository 
+## Cloning repository 
 Open Terminal and insert git clone followed by the copied URL and press enter to create local clone. 
 $ git clone https://github.com/SadeJoseph/CalculatorTechnicalExercise.git
