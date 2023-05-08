@@ -6,6 +6,7 @@ So far this application allows you to:
 - View the mathmatical input and result.
 - Use both whole numbers and decimal numbers.
 - Chain simple equations together e.g (100+50)/5
+- Provides list of 3 previous calculations. 
 
 ## Screenshot 
 
