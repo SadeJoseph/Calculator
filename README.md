@@ -10,7 +10,7 @@ So far this application allows you to:
 
 ## Screenshot 
 
-![App Screenshot](/assets/screenshot3.png)
+![App Screenshot](/assets/screenshot5.png)
 
 ## Cloning repository 
 Open Terminal and insert git clone followed by the copied URL and press enter to create local clone. 
