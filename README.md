@@ -10,8 +10,9 @@ So far this application allows you to:
 
 ## Screenshot 
 
-![App Screenshot](/assets/screenshot.png)
+![App Screenshot](/assets/screenshot3.png)
 
 ## Cloning repository 
 Open Terminal and insert git clone followed by the copied URL and press enter to create local clone. 
 $ git clone https://github.com/SadeJoseph/CalculatorTechnicalExercise.git
+ 
