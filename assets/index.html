@@ -32,9 +32,14 @@
         <button onclick="calculate(0)">0</button>
         <button onclick="closeB()">)</button>
         <button onclick="calculate('.')">.</button>
-        <button id="equals" onclick="Answer()">=</button>
-       
+        <button id="equals" onclick="answerAndAddHistory()">=</button>
+
+        <div class="history">
+            <ul id="history-list"></ul>
+            <button onclick="clearHistory()">Clear history</button>
+          </div>
     </div>
+   
 </div>
  <script src="script.js"></script>
 </body>

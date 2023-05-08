@@ -28,21 +28,23 @@
 
 input{
     grid-column: span 4 ;
-    height: 70px;
+    height: 90px;
     border: none;
     border-radius: 30px;
     color: rgb(70, 70, 70);
     font-size: 45px;
     text-align: end;
     margin-top: 25px;
-    margin-bottom:35px;
+    margin-bottom: 15px;
     padding: 20px;
     box-shadow: -10px -10px 25px rgba(255,255,255,0.1),
     5px 5px 15px rgba(0,0,0,0.2);
 
 }
 
-button{
+
+  
+button {
     height: 60px;
     width: 60px;
     border: none;
@@ -70,4 +72,12 @@ button:active {
    width: 300px;
    border-radius: 30px;
    
+}
+
+.history {
+    grid-column: 1 / span 4;
+    grid-row: 2 / span 5;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
 }

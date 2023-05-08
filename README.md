@@ -1,5 +1,5 @@
 # Calculator
-A simple calculator application using HTML, CSS and Javascript.
+A simple calculator application using HTML, CSS and Javascript. The logic is very simple. 
 So far this application allows you to: 
 
 - Compute basic Addition, subtraction, multiplication and division  sums.
