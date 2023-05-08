@@ -81,3 +81,26 @@ button:active {
     align-items: center;
     border-radius: 30px;
 }
+
+#clear-history {
+    grid-column: 4;
+    height: 70px;
+    border-radius: 30px;
+    background-color: rgb(70, 70, 70);
+    font-size: 25px;
+    margin: 25px;
+    padding: 10px 20px;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+      5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+
+
+  #history-list {
+    flex-grow: 1;
+    margin-left: 10px;
+    padding: 30px;
+    list-style: none;
+    background: none;
+ 
+  }
